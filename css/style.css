@@ -1,0 +1,312 @@
+/*css reset*/
+*{
+margin: 0;
+padding: 0;
+}
+:root{
+    --navbar-height:59px
+}
+/*Navigation bar*/
+#navbar{
+    position: absolute;
+    top: 0px;
+}
+#navbar{
+    display: flex;
+    align-items: center;
+}
+/*Navigation:Logo and image styling*/
+#logo{
+margin: 3px 10px;
+}
+#logo img{
+height: 60px;
+margin: 1px 5px;
+}
+/*Navigation:List styling*/
+#navbar ul{
+    display: flex;
+}
+#navbar::before{
+    content: "";
+    background-color: rgb(57, 9, 46);
+    height: 100%;
+    width: 100%;
+    opacity: 0.3;
+    top: 0px;
+    left: 0px;
+    position: absolute;
+    z-index: -1;
+}
+#navbar ul li{
+    font-size: 1.3rem;
+    list-style: none;
+}
+#navbar ul li a{
+    color: rgb(233, 222, 222);
+    display: block;
+    font-size: 1.3rem;
+    text-decoration: none;
+    padding: 3px 20px;
+    border-radius: 20px;
+}
+#navbar ul li a:hover{
+    color:rgb(210, 89, 109);
+    background-color: rgb(244, 241, 236);
+}
+/*home section*/
+#home{
+    display: flex;
+    flex-direction: column;
+justify-content: center;
+padding:3px 200px;
+height: 650px;
+align-items: center;
+    color: rgb(240, 226, 217);
+}
+#home::before{
+    content: "";
+    position: absolute;
+    background : url('../goa1.jpg')no-repeat center center/cover;
+    width: 100%;
+    height: 92%;
+    top: 0px;
+    left: 0px;
+    opacity: 1;
+  z-index: -1;
+}
+#home h1{
+    color: rgb(244, 239, 236);
+    text-align: center;
+    background-color: rgb(84, 64, 37);
+    opacity: 0.68;
+    border-radius: 25px;
+}
+/*clicks section*/
+#clicks{
+    margin: 34px;
+    display: flex;
+    margin-left: 10px;
+    margin-right: 10px;
+    justify-content: center;
+}
+#clicks .box{
+    border: 2px solid rgb(117, 75, 6);
+    padding: 34px;
+    margin: 3px 45px;
+    border-radius: 35px;
+    background-color: rgb(251, 251, 245);
+    margin-bottom: 20px;
+}
+#clicks .box img{
+    height: 250px;
+    width: 365px;
+    margin: auto;
+    display: block;
+    border-radius: 20px;
+}
+/*utility classes*/
+.h-primary{
+    font-size: 2.1em;
+    padding: 15px;
+    justify-content: center;
+}
+.h1-primary{
+    font-size: 1.9em;
+    color: rgb(36, 2, 104);
+    margin: 3px 645px;
+    background-color: rgb(224, 243, 245);
+    border-radius: 20px;
+    padding: 15px;
+    text-align: center;
+    text-decoration: underline;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+
+.h-secondary{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.0em;
+    padding: 15px;
+    color: #10407e;
+}
+.h2-primary{
+    font-size: 1.9em;
+    color: rgb(68, 41, 6);
+    margin: 3px 645px;
+    background-color: rgb(240, 229, 201);
+    border-radius: 20px;
+    padding: 15px;
+    text-align: center;
+    text-decoration: underline;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+.h3-primary{
+    font-size: 1.9em;
+    color: rgb(158, 45, 11);
+    margin: 3px 645px;
+    background-color: rgb(240, 229, 201);
+    border-radius: 20px;
+    padding: 15px;
+    text-align: center;
+    text-decoration: underline;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+.center{
+    text-align: center;
+}
+/*clicks1 section*/
+#clicks1{
+    margin: 15px;
+    display: flex;
+    justify-content: center;
+}
+#clicks1 .box{
+    border: 2px solid rgb(117, 75, 6);
+    padding: 45px;
+    margin: 3px 40px;
+    border-radius: 30px;
+    background-color: rgb(238, 238, 228);
+}
+#clicks1 .box img{
+    height: 278px;
+    width: 220px;
+    margin: auto;
+    display: block;
+    border-radius: 12px;
+}
+.h1-secondary{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.1em;
+    padding: 15px;
+    color: #521806;
+}
+/*clicks2 section*/
+#clicks2{
+    margin: 15px;
+    display: flex;
+    justify-content: center;
+}
+#clicks2 .box{
+    border: 2px solid rgb(117, 75, 6);
+    padding: 45px;
+    margin: 3px 40px;
+    border-radius: 30px;
+    background-color: rgb(238, 238, 228);
+}
+#clicks2 .box img{
+    height: 260px;
+    width: 240px;
+    margin: auto;
+    display: block;
+    border-radius: 12px;
+}
+/*clicks3 section*/
+#clicks3{
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+}
+#clicks3 .box{
+    border: 2px solid rgb(117, 75, 6);
+    padding: 45px;
+    margin: 3px 45px;
+    border-radius: 30px;
+    background-color: rgb(240, 238, 226);
+    margin-bottom: 20px;
+}
+#clicks3 .box img{
+    height: 275px;
+    width: 320px;
+    margin: auto;
+    display: block;
+    border-radius: 12px;
+}
+.h2-secondary{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.1em;
+    padding: 15px;
+    color: #9b3110;
+}
+footer{
+    background-color: black;
+    color: bisque;
+    padding: 10px 20px;
+}
+/*overview*/
+#over{
+    position: relative;
+}
+#over::before{
+    content: "";
+    position: absolute;
+    background : url('../n4.jpg')no-repeat center center/cover;
+    width: 100%;
+    height: 100%;
+    opacity: 0.35;
+    height: 700px;
+}
+#hello{
+    color: #0c0604;
+    font-size: 5em;
+    text-align: center;
+opacity: 100%;
+padding: 50px;
+text-decoration: underline;
+}
+#sam{
+    color: #381207;
+    justify-content: center;
+    font-size: 2.5em;
+    display: flex;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#th{
+    color: #0c0604;
+    font-size: 2.5em;
+    text-align: center;
+opacity: 100%;
+}
+/*clicks4 section*/
+#clicks4{
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+}
+#clicks4 .box{
+    border: 2px solid rgb(117, 75, 6);
+    padding: 45px;
+    margin: 3px 45px;
+    border-radius: 30px;
+    background-color: rgb(246, 243, 246);
+    margin-bottom: 20px;
+}
+#clicks4 .box img{
+    height: 300px;
+    width: 300px;
+    margin: auto;
+    display: block;
+    border-radius: 12px;
+}
+.h3-secondary{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.1em;
+    padding: 15px;
+    color: #830f43;
+}
+.h4-primary{
+    font-size: 1.9em;
+    color: rgb(120, 7, 59);
+    margin: 3px 645px;
+    background-color: rgb(233, 225, 230);
+    border-radius: 20px;
+    padding: 15px;
+    text-align: center;
+    text-decoration: underline;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}

@@ -1,0 +1,63 @@
+/*navigation*/
+#navbar{
+    flex-direction: column;
+}
+#navbar ul li a{
+    font-size: 1rem;
+    padding: 0px 10px;
+}
+/*home*/
+#home{
+    height: 400px;
+    justify-content: center;
+    padding: 1px 20px;
+}
+#home::before{
+    height: 400px;
+}
+/*clicks*/
+#clicks{
+flex-direction: column;
+}
+#clicks .box{
+    padding: -1px;
+    margin: 1px 4px;
+    margin-bottom: 20px;
+}
+/*clicks1*/
+#clicks1{
+flex-direction: column;
+}
+#clicks1 .box{
+    padding: -1px;
+    margin: 1px 4px;
+    margin-bottom: 20px;
+}
+/*clicks2*/
+#clicks2{
+flex-direction: column;
+}
+#clicks2 .box{
+    padding: -1px;
+    margin: 1px 4px;
+    margin-bottom: 20px;
+}
+/*clicks3*/
+#clicks3{
+flex-direction: column;
+}
+#clicks3 .box{
+    padding: -1px;
+    margin: 1px 4px;
+    margin-bottom: 20px;
+}
+/*feedback*/
+#feedback-box form{
+    width: 75%;
+}
+/*footer*/
+
+/*utility*/
+.h-primary{
+    font-size: 20px;
+}
